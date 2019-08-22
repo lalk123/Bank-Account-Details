@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,d;
+    printf("enter the number");
+    scanf("%d%d%d",&a,&b,&c);
+    d=b*b-4*a*c;
+    if(d>0)
+    {
+        printf("+ve root");
+    }
+    else{
+        printf("negative root");
+    }
+    printf("the discriminant is %d",d);
+    
+
+    return 0;
+}
